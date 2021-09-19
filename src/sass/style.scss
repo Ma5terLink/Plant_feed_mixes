@@ -1,0 +1,81 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+@import 'base/mixins';
+
+* {
+    position: initial;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container {
+    position: relative;    
+    max-width: 1109px;
+    margin: 0 auto;    
+}
+
+
+:root {
+    //colors
+    --color-black: #000;
+    --color-white: #fff;
+    --color-main-orange: #f07c00;
+    --color-main-gray: #a5a5a5;
+    --color-bg1: #F2F0CC;
+    --color-bgLightYellow-gr100-1: #E8E6AE;
+    --color-bgLightYellow-gr100-2: #F5F3D8;
+    --color-bgGreen-gr100-1: #A5C436;
+    --color-bgGreen-gr100-2: #74AF35;
+    --color-smallText: #414141;
+    --color-smallText2: #464646;
+    --color-smallText3: #454545;
+    --color-borders: #ededed;
+    --color-vinous: #d62d30;
+
+
+    //font sizes
+    --fs-12: 12px;
+    --fs-13: 13px;
+    --fs-14: 14px;
+    --fs-15: 15px;
+    --fs-16: 16px;
+    --fs-17: 17px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-21: 21px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-36: 36px;
+    --fs-40: 40px;
+    --fs-51: 51px;
+    //line hights
+    --lh-15: 15px;
+    --lh-16: 16px;
+    --lh-18: 18px;
+    --lh-19: 19px;
+    --lh-21: 21px;
+    --lh-128p: 128%;
+}
+
+a {
+    color: var(--color-black);
+    &:hover {
+        text-decoration: none;
+    }
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import 'blocks/txtFontStyles';
+@import 'blocks/policy';
+@import 'blocks/pageup';
+
+
+
+@import 'blocks/media';
