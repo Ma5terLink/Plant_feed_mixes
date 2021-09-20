@@ -1,3 +1,4 @@
-@mixin LLL {
-
+@mixin divider {
+    width: 30px;
+    border: 2px solid var(--color-main-orange);
 }

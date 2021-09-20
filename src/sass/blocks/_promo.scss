@@ -1,0 +1,90 @@
+.promo {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 798px;
+    background: url('../img/bg/x1.png') ;
+    z-index: -1;
+    &__shadow_one {
+        width: 1540px;
+        height: 100%;
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.69) 100%);
+    }
+    &__shadow_two {
+        position: inherit;
+        width: 100%;
+        height: 185px;
+        background: linear-gradient(179.71deg, rgba(255, 255, 255, 0) 0.25%, #FFFFFF 99.75%);
+        bottom: 0;
+    }
+    .container {
+        position: inherit;
+        width: 100%;
+        top: 84px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__wrapper {
+        width: 805px;
+        height: 467px;
+        margin-top: 109px;
+    }
+    &__title {
+        text-transform: uppercase;
+    }
+    &__inwrapper-first {
+        display: flex;
+        margin-top: 26px;
+    }
+    &__subtitle {
+        margin-left: 10px;
+        width: 573px;
+        span {
+            font-weight: 600;
+        }
+    }
+    &__inwrapper-second {
+        display: flex;
+        margin-top: 47px;
+        width: 745px;
+        min-height: 100px;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 227px;
+    }
+    &__descr {
+        margin-top: 10px;
+    }
+    &__btn {
+        display: block;
+        position: relative;
+        filter: drop-shadow(0px 4px 17px var(--color-main-orange));
+        a {
+            padding: 25px 63px 24px 64px;
+            color: var(--color-white);
+            background-color: var(--color-main-orange);
+            border-radius: 1px;
+        }        
+        &:before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            background: url('../icons/1section/leaf.svg');
+            width: 51px;
+            height: 44px;
+            top: 19px;
+            left: -22px;
+        }
+        &:after {
+            content: '';
+            position: absolute;
+            background: url('../icons/1section/flower1.svg');
+            width: 61px;
+            height: 72px;
+            top: -40px;
+            left: 229px;
+
+        }
+    }
+}

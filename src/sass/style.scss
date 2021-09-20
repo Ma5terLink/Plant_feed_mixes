@@ -70,12 +70,18 @@ h1, h2, h3, h4, h5, h6, ul {
     margin: 0;
     padding: 0;
 }
-
+.divider {
+    margin-top: 8px;
+    width: 30px;
+    height: 1px;
+    border: 2px solid var(--color-main-orange);
+}
 
 @import 'blocks/txtFontStyles';
 @import 'blocks/policy';
 @import 'blocks/pageup';
 @import 'blocks/mainMenu';
+@import 'blocks/promo';
 
 
 @import 'blocks/views';
