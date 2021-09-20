@@ -405,7 +405,7 @@ template {
 
 .container {
   position: relative;
-  max-width: 1109px;
+  max-width: 1216px;
   margin: 0 auto;
 }
 
@@ -453,7 +453,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, ul {
   margin: 0;
   padding: 0;
 }
@@ -666,6 +666,86 @@ h1, h2, h3, h4, h5, h6 {
 }
 .pageup img {
   width: 100%;
+}
+
+.mainMenu {
+  display: flex;
+  width: 1215px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+.mainMenu__logo {
+  margin-right: 25px;
+}
+.mainMenu__items {
+  display: flex;
+  width: 752px;
+  height: 18px;
+  margin-top: 4px;
+  list-style-type: none;
+  align-self: center;
+  text-transform: uppercase;
+}
+.mainMenu__items li {
+  padding: 0 8px 0 7px;
+  align-content: center;
+  border-right: 1px solid var(--color-main-gray);
+}
+.mainMenu__items li:first-child {
+  padding-left: 0;
+}
+.mainMenu__items li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+.mainMenu__items li a:hover {
+  color: var(--color-main-orange);
+}
+.mainMenu__btn {
+  align-self: center;
+}
+.mainMenu__btn a {
+  display: block;
+  padding: 14px 28px;
+  margin-left: 25px;
+  color: var(--color-white);
+  background-color: var(--color-main-orange);
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+  right: 20px;
+  width: 47px;
+  height: 46px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-main-orange);
+  border: 2px solid var(--color-main-orange);
+  border-radius: 1px;
+}
+.hamburger span {
+  width: 18px;
+  margin-bottom: 2px;
+  border: 1px solid #fff;
+  border-radius: 1px;
+}
+.hamburger span:nth-child(2) {
+  width: 12px;
+}
+.hamburger span:nth-child(4) {
+  width: 12px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 @media (max-width: 1200px) {
