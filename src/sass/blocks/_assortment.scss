@@ -1,0 +1,176 @@
+.assortment {
+    position: relative;
+    padding-top: 200px;
+    min-height: 1749px;
+    top: 710px;
+    &__title {
+        text-transform: uppercase;
+    }
+    &__subtitleWrapper {
+        display:flex;
+        &.second {
+            width: 165px;
+            margin-top: 53px;
+        }
+    }
+    &__subtitle {
+        display:block;
+        width: 352px;
+        padding: 8px 36px 8px 20px;
+        margin-top: 18px;
+        color: var(--color-white);
+        background-color: var(--color-main-orange);
+        border-radius: 1px;
+        &.second {
+            padding: 6px 42px 6px 33px;
+            margin-top: 0;
+            width: 153px;
+        }
+    }
+    &__cards {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 289px;
+        height: 459px;
+        border: 1px solid #EDEDED;
+        box-sizing: border-box;
+        border-radius: 5px;
+        &.second {
+            width: 598px;
+            height: 109px;
+            margin-bottom: 12px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+        }
+        img {
+            width: 100%;
+        }
+        &-title {
+            &.second {
+                position: relative;
+                padding: 24px 0 0 64px;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 16px;
+                    height: 16px;
+                    left: 40px;
+                    background: url('../icons/2section/check-circle.svg');
+
+                }
+            }
+        }
+        &-descr {
+            margin-top: 5px;
+            margin-bottom: 15px;
+            &.second {
+                width: 520px;
+                padding: 0 0 0 40px;
+            }
+        }
+        &-component {
+            position: relative;
+            margin-bottom: 5px;
+            padding-left: 18px;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 2px;
+                left: 0;
+                width: 9px;
+                height: 12px;
+                background: url('../icons/2section/drop.svg');
+            }
+        }
+
+    }
+    &__cardWrapper {
+        padding: 20px 16px 20px 17px;
+    }
+    &__promo {
+        margin-top: 53px;
+        width: 100%;
+        height: 282px;
+        align-self: center;
+        &-title {
+            padding-top: 35px;
+            width: 618px;
+            color: var(--color-white);
+            text-transform: uppercase;
+            &:after {
+                content: '';
+                position: absolute;
+                width: 253px;
+                top: 73px;
+                left: 550px;
+                border-top: 1px dashed #fff;
+  
+            }
+        }
+        &-descr {
+            padding-top: 5px;
+            width: 767px;
+            color: var(--color-white);
+        }
+    }
+    &__promoBG {
+        display: flex;
+        position: relative;
+        height: 424px;
+        top: -53px;
+        flex-direction: row;
+        span {
+            position: absolute;
+            width: 740px;
+            height: 424px;
+            background: url('../img/Vector2.svg');
+            z-index: 1;
+            &:nth-child(2) {
+                left: 740px;
+            }
+            &:nth-child(3) {
+                left: 1165px;
+            }
+        }
+    }
+    &__promoWrapper {
+        position: relative;
+        width: 100%;
+        height: 178px;
+        top: -367px;
+        background-image: linear-gradient(90deg, var(--color-bgGreen-gr100-1), var(--color-bgGreen-gr100-2));
+    }
+    &__promoINwrap {
+        display: flex;
+    }
+    &__promo-image {
+        position: relative;
+        top: -57px;
+        left: 66px;
+        &:before {
+            content: '';
+            position: absolute;
+            width: 401px;
+            height: 282px;
+            top: -2px;
+            left: -17px;
+            border: 2px solid var(--color-white);
+            box-sizing: border-box;
+            border-radius: 175px;
+        }
+    }
+    &__form{
+        background-image: linear-gradient(90deg, var(--color-bgLightYellow-gr100-1), var(--color-bgLightYellow-gr100-2));
+        border-radius: 5px;
+    }
+    &__formTitle {
+        padding-top: 37px;
+        width: 764px;
+    }
+}
+

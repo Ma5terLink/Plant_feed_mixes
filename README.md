@@ -3,6 +3,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(20-09-21 04:20 МСК+2) =03=
+- Собрана вторая секция "Ассортимент".
+- The second section "Assortment" has been assembled.
+
+
 (20-09-21 21:25 МСК+2) =02=
 - Собрана секция промо.
 - The promo section has been assembled.

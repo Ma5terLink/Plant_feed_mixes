@@ -5,6 +5,7 @@
     right: 40px;
     width: 100px;
     height: 100px;
+    z-index: 1000;
     svg path {
         fill: var(--color-1);
     }

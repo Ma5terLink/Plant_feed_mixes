@@ -1,0 +1,38 @@
+.order {
+    &__form {
+        margin-top: 50px;
+        padding-left: 40px;
+        width: 100%;
+        height: 189px;
+        background: url('../img/bg/x2.svg');
+    }
+    &__formWrapper {
+        display:flex;
+        margin-top: 21px;
+        width: calc(100% - 40px);
+        justify-content: space-between;
+    }
+    &__input {
+        padding: 0 15px 0 15px;
+        width: 275px;
+        height: 46px;
+        text-align: center;
+        border:none;
+        outline: none;
+        &::placeholder {
+            color: var(--color-black);
+        }
+    }
+}
+.btn_getPrice {
+    width: 268px;
+    height: 46px;
+    border: none;
+    color: var(--color-white);
+    background-color: var(--color-main-orange);
+    box-shadow: 0px 4px 17px var(--color-main-orange);
+    border-radius: 1px;
+    &:focus, &:focus-visible {
+        outline: none;
+    }
+}
