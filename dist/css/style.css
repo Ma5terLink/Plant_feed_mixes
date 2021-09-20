@@ -969,31 +969,15 @@ h1, h2, h3, h4, h5, h6, ul {
   color: var(--color-white);
 }
 .assortment__promoBG {
-  display: flex;
-  position: relative;
-  height: 424px;
-  top: -53px;
-  flex-direction: row;
-}
-.assortment__promoBG span {
-  position: absolute;
-  width: 740px;
-  height: 424px;
-  background: url("../img/Vector2.svg");
-  z-index: 1;
-}
-.assortment__promoBG span:nth-child(2) {
-  left: 740px;
-}
-.assortment__promoBG span:nth-child(3) {
-  left: 1165px;
+  margin-top: 110px;
+  background-image: linear-gradient(90deg, var(--color-bgGreen-gr100-1), var(--color-bgGreen-gr100-2));
 }
 .assortment__promoWrapper {
   position: relative;
   width: 100%;
   height: 178px;
-  top: -367px;
-  background-image: linear-gradient(90deg, var(--color-bgGreen-gr100-1), var(--color-bgGreen-gr100-2));
+  background: url("../img/Vector2.svg");
+  z-index: 1;
 }
 .assortment__promoINwrap {
   display: flex;

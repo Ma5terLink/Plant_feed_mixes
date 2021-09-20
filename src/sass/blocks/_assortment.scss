@@ -119,31 +119,16 @@
         }
     }
     &__promoBG {
-        display: flex;
-        position: relative;
-        height: 424px;
-        top: -53px;
-        flex-direction: row;
-        span {
-            position: absolute;
-            width: 740px;
-            height: 424px;
-            background: url('../img/Vector2.svg');
-            z-index: 1;
-            &:nth-child(2) {
-                left: 740px;
-            }
-            &:nth-child(3) {
-                left: 1165px;
-            }
-        }
+        margin-top: 110px;
+        background-image: linear-gradient(90deg, var(--color-bgGreen-gr100-1), var(--color-bgGreen-gr100-2));
     }
     &__promoWrapper {
         position: relative;
         width: 100%;
         height: 178px;
-        top: -367px;
-        background-image: linear-gradient(90deg, var(--color-bgGreen-gr100-1), var(--color-bgGreen-gr100-2));
+        background: url('../img/Vector2.svg');
+        z-index: 1;
+        
     }
     &__promoINwrap {
         display: flex;
