@@ -76,28 +76,17 @@ h1, h2, h3, h4, h5, h6, ul {
     height: 1px;
     border: 2px solid var(--color-main-orange);
 }
-.triangle {
-    position: relative;
-    top: 18px;
-    left: -11px;
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-right: 11px solid white;
-    border-bottom: 20px solid transparent;
-    border-radius: 1px;
-    &.second {
-        top: 0px;
-    }
-}
+
 
 @import 'blocks/txtFontStyles';
 @import 'blocks/policy';
 @import 'blocks/pageup';
 @import 'blocks/mainMenu';
 @import 'blocks/promo';
+@import 'blocks/titles';
 @import 'blocks/assortment';
 @import 'blocks/forms';
+@import 'blocks/quality';
 
 @import 'blocks/views';
 @import 'blocks/media';

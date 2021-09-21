@@ -3,6 +3,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(21-09-21 20:10 МСК+2) =04=
+- Собрана третья секция "Качество". Мелкие правки с подзаголовками (те, что рыжие). Вообще, все заголовки и подзаголовки секций вынесены в отдельный SCSS-файл(блок).
+- The third section "Quality"has been assembled. Minor edits with subheadings (those that are orange). In general, all the headers and subheadings of the sections are placed in a separate SCSS file (block).
+
+
 (21-09-21 04:50 МСК+2) =03-1=
 - Исправление мелких недочётов, связанных с элементами использующими градиент.
 - Correction of minor bugs related to elements using a gradient.

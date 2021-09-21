@@ -3,30 +3,7 @@
     padding-top: 200px;
     min-height: 1749px;
     top: 710px;
-    &__title {
-        text-transform: uppercase;
-    }
-    &__subtitleWrapper {
-        display:flex;
-        &.second {
-            width: 165px;
-            margin-top: 53px;
-        }
-    }
-    &__subtitle {
-        display:block;
-        width: 352px;
-        padding: 8px 36px 8px 20px;
-        margin-top: 18px;
-        color: var(--color-white);
-        background-color: var(--color-main-orange);
-        border-radius: 1px;
-        &.second {
-            padding: 6px 42px 6px 33px;
-            margin-top: 0;
-            width: 153px;
-        }
-    }
+
     &__cards {
         display: flex;
         margin-top: 50px;

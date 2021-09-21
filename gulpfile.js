@@ -9,11 +9,12 @@ const htmlmin = require('gulp-htmlmin');
 
 // Static server
 gulp.task('server', function() {
-    // browserSync({
-    //     server: {
-    //         baseDir: "dist"
-    //     }
-    // });
+    browserSync({
+        server: {
+            baseDir: "dist"
+        },
+        port: 4000
+    });
 
     gulp.watch("src/*.html").on('change', browserSync.reload);
     gulp.watch("src/js/**/*.js").on('change', browserSync.reload);
@@ -36,11 +37,11 @@ gulp.task('styles', function()  {
 });
 
 gulp.task('watch', function()   {
-    browserSync.init({
-		server: "./dist/",
-		port: 4000,
-		notify: true
-    });
+    // browserSync.init({
+	// 	server: "./dist/",
+	// 	port: 4000,
+	// 	notify: true
+    // });
 
     gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel("styles"))
     gulp.watch("src/*.html").on('change', gulp.parallel('html'))

@@ -1,0 +1,28 @@
+.title { text-transform: uppercase; }
+.subtitleWrapper { display:flex; }
+.subtitle {
+    padding: 8px 36px 8px 20px;
+    margin-top: 10px;
+    color: var(--color-white);
+    background-color: var(--color-main-orange);
+    border-radius: 1px;
+    &.second {
+        padding: 7px 42px 7px 33px;
+        margin-top: 0;
+        width: 153px;
+    }
+}
+.triangle {
+    position: relative;
+    top: 8px;
+    left: -11px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 11px solid white;
+    border-bottom: 20px solid transparent;
+    border-radius: 1px;
+    &.second {
+        top: 0px;
+    }
+}
