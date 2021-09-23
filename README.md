@@ -3,6 +3,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(23-09-21 21:35 МСК+2) =06=
+- Собрана пятая секция "Завод". Мелкие правки в секциях ПРОМО и МЕНЮ.
+- The fifth section "Plant" has been assembled. Minor edits in the PROMO and MENU sections.
+
 (22-09-21 00:00 МСК+2) =05=
 - Собрана четвертая секция "Комплексный подход".
 - The fourth section "approach" has been assembled.

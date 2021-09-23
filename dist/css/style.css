@@ -670,17 +670,22 @@ h1, h2, h3, h4, h5, h6, ul {
   z-index: 1000;
 }
 .pageup svg path {
-  fill: var(--color-1);
+  fill: var(--color-main-orange);
 }
 .pageup img {
   width: 100%;
+}
+
+.menu .container {
+  width: 100%;
+  height: 70px;
+  z-index: 1;
 }
 
 .mainMenu {
   display: flex;
   width: 1215px;
   height: 70px;
-  margin: 0 auto;
   margin-top: 18px;
 }
 .mainMenu__logo {
@@ -754,7 +759,6 @@ h1, h2, h3, h4, h5, h6, ul {
   width: 100%;
   height: 798px;
   background: url("../img/bg/x1.png");
-  z-index: -1;
 }
 .promo__shadow_one {
   width: 1540px;
@@ -1381,6 +1385,95 @@ h1, h2, h3, h4, h5, h6, ul {
   background: var(--color-main-orange);
   box-shadow: 0px 4px 17px var(--color-main-orange);
   border-radius: 1px;
+}
+
+.factory {
+  position: relative;
+  top: 720px;
+  margin-top: 200px;
+  min-height: 1536px;
+}
+.factory__imageMain {
+  width: 100%;
+  height: 388px;
+  margin-top: 50px;
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+.factory__imagesWrapper {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.factory__imagesWrapper-item {
+  width: 392px;
+  height: 250px;
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+.factory__imagesWrapper-descr {
+  width: 392px;
+  height: 134px;
+  margin-top: 6px;
+  padding-top: 24px;
+  border: 1px solid #EDEDED;
+  border-radius: 5px;
+  text-align: center;
+}
+.factory__imagesWrapper-descr-value {
+  color: var(--color-main-orange);
+}
+.factory__imagesWrapper-descr-info {
+  padding-top: 15px;
+  color: var(--color-black);
+  text-transform: uppercase;
+}
+.factory .assortment__promoBG {
+  margin-top: 50px;
+}
+.factory .assortment__promoWrapper {
+  height: 91px;
+}
+.factory .assortment__promo-title {
+  width: 227px;
+}
+.factory .assortment__promo-title:after {
+  width: 111px;
+  top: 47px;
+  left: 225px;
+}
+.factory .assortment__promo-descr {
+  width: 921px;
+  position: relative;
+  margin-top: 33px;
+  margin-left: 136px;
+}
+.factory__certificatesWrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.factory__certificatesWrapper-item {
+  width: 237px;
+  height: 335px;
+}
+.factory__certificatesWrapper-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.factory__certDescr {
+  position: relative;
+  margin-top: 50px;
+}
+.factory__certDescr:before {
+  content: "";
+  position: absolute;
+  height: 99px;
+  width: 44px;
+  top: -91px;
+  left: -55px;
+  background: url("../icons/5section/arc_left.svg");
 }
 
 .hide {

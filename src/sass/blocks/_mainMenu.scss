@@ -1,8 +1,14 @@
+.menu {
+    .container {
+        width: 100%;
+        height: 70px;
+        z-index: 1;
+    }
+}
 .mainMenu {
     display: flex;
     width: 1215px;
     height: 70px;
-    margin: 0 auto;
     margin-top: 18px;
     &__logo {
         margin-right: 25px;

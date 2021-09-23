@@ -10,40 +10,42 @@
 </head>
 <body>
 <!-- Заголовок - навигационное меню -->
-<header>
-    <nav>
-        <div class="mainMenu">
-            <div class="mainMenu__logo">
-                <img src="img/logos/logo1.svg" alt="LogoMain">
+<header class="menu">
+    <div class="container">
+        <nav>
+            <div class="mainMenu">
+                <div class="mainMenu__logo">
+                   <a href="#">
+                    <img src="img/logos/logo1.svg" alt="LogoMain">
+                   </a>
+                </div>
+                <ul class="mainMenu__items fz15lh18">
+                    <li><a href="#upProduct">продукция</a></li>
+                    <li><a href="#upAbout">о компании</a></li>
+                    <li><a href="#upConditions">условия</a></li>
+                    <li><a href="#upGuarantees">гарантии</a></li>
+                    <li><a href="#upDelivery">доставка</a></li>
+                    <li><a href="#upPartners">партнёрам</a></li>
+                    <li><a href="#upNews">новости</a></li>
+                    <li><a href="#upContacts">контакты</a></li>
+                </ul>
+                <div class="mainMenu__btn fz15lh18-600">
+                    <a href="#upModal">Заказать звонок</a>
+                </div>
             </div>
-            <ul class="mainMenu__items fz15lh18">
-                <li><a href="#upProduct">продукция</a></li>
-                <li><a href="#upAbout">о компании</a></li>
-                <li><a href="#upConditions">условия</a></li>
-                <li><a href="#upGuarantees">гарантии</a></li>
-                <li><a href="#upDelivery">доставка</a></li>
-                <li><a href="#upPartners">партнёрам</a></li>
-                <li><a href="#upNews">новости</a></li>
-                <li><a href="#upContacts">контакты</a></li>
-            </ul>
-            <div class="mainMenu__btn fz15lh18-600">
-                <a href="#upModal">Заказать звонок</a>
+            <div class="hamburger hide">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </div>
-        <div class="hamburger hide">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+        </nav>
+    </div>
 </header>
 
 
 
 
-
-<main>
 <!-- Первая секция - ПРОМО -->
 <section class="promo">
     <div class="promo__shadow_one"></div>
@@ -501,14 +503,101 @@
             </div>
         </div>
 
-
     </div>
 </section>
 
 
 
 
-</main>
+<!-- Пятая секция - Завод -->
+<section class=factory>
+    <div class="container">
+        <h2 class="title fz36lh128p-bR">
+            завод "кормовые смеси"</h2>
+        <div class="subtitleWrapper">
+            <div class="subtitle fz16lh128p">
+                Крупный производитель кормовых добавок с 1999 года
+            </div>
+            <div class="triangle"></div>
+        </div>
+        <div class="factory__imageMain"></div>
+        <div class="factory__imagesWrapper">
+            <div>
+                <div class="factory__imagesWrapper-item"></div>
+                <div class="factory__imagesWrapper-descr">
+                    <div class="factory__imagesWrapper-descr-value fz40lh128p-b">
+                        685 кв.м
+                    </div>
+                    <div class="factory__imagesWrapper-descr-info fz16lh128p">
+                        площадь производства
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="factory__imagesWrapper-item"></div>
+                <div class="factory__imagesWrapper-descr">
+                    <div class="factory__imagesWrapper-descr-value fz40lh128p-b">
+                        20 000 кв.м
+                    </div>
+                    <div class="factory__imagesWrapper-descr-info fz16lh128p">
+                        для производства жмыха и масла
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="factory__imagesWrapper-item"></div>
+                <div class="factory__imagesWrapper-descr">
+                    <div class="factory__imagesWrapper-descr-value fz40lh128p-b">
+                        1400 кв.м
+                    </div>
+                    <div class="factory__imagesWrapper-descr-info fz16lh128p">
+                        площадь складских помещений
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Здесь решено использовать некоторые элементы секции ПРОМО -->
+    <div class="assortment__promoBG">
+            <div class="assortment__promoWrapper">
+                <div class="container">
+                    <div class="assortment__promoINwrap">
+                            <div class="assortment__promo-title fz20lh128p-bR">
+                                МИССИЯ КОМПАНИИ
+                            </div>
+                            <div class="assortment__promo-descr fz16lh128p">
+                                Стать лучшим производителем кормовых добавок с целью обеспечения продовольственной безопасной страны.
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </div>  
+    <!-- Возвращаемся в секцию завод, второй контейнер -->
+    <div class="container">
+        <div class="factory__certificatesWrapper">
+            <div class="factory__certificatesWrapper-item">
+                <img src="img/5section/pic1.png" alt="pic1">
+            </div>
+            <div class="factory__certificatesWrapper-item">
+                <img src="img/5section/pic2.png" alt="pic2">
+            </div>
+            <div class="factory__certificatesWrapper-item">
+                <img src="img/5section/pic3.png" alt="pic3">
+            </div>
+            <div class="factory__certificatesWrapper-item">
+                <img src="img/5section/pic4.png" alt="pic4">
+            </div>
+        </div>
+        <div class="factory__certDescr fz16lh128p-400">
+            Мы всегда открыты для наших партнеров, и готовы предоставить оригиналы всех документов.
+        </div>
+    </div>
+
+    </div>
+
+
+</section>
+
 
 
 
