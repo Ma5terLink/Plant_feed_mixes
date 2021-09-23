@@ -3,6 +3,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(23-09-21 23:50) =07=
+- Собрана шестая секция "Лидерские условия". Мелкие правки верстки.
+- The sixth section "Leadership conditions"has been assembled. Minor layout edits.
+
 (23-09-21 21:35 МСК+2) =06=
 - Собрана пятая секция "Завод". Мелкие правки в секциях ПРОМО и МЕНЮ.
 - The fifth section "Plant" has been assembled. Minor edits in the PROMO and MENU sections.
