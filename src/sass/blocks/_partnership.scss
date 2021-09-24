@@ -1,0 +1,102 @@
+.partnership {
+    position: relative;
+    min-height: 523px;
+    top: 720px;
+    margin-top: 200px;
+    .leadConditions__subtitle {
+        width: 440px;
+    }
+    &__cardsWrapper {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        justify-content: space-between;
+        &-card {
+            position: relative;
+            width: 392px;
+            height: 172px;
+            padding-top: 26px;
+            border: 1px solid #E6E6E6;
+            box-sizing: border-box;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            &:nth-child(2),
+            &:nth-child(3) {
+                .partnership__cardsWrapper-card-descr {
+                    width: 229px;
+                }    
+            }
+            &:nth-child(4) {
+                width: 598px;
+                padding-top: 36px;
+                margin-bottom: 0;
+                .partnership__cardsWrapper-card-descr {
+                    width: 239px;
+                }
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 55px;
+                    height: 64px;
+                    top: -17px;
+                    left: -21px;
+                    background: url('../icons/10section/fl1.svg');
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 32px;
+                    height: 33px;
+                    bottom: -11px;
+                    right: -11px;
+                    background: url('../icons/10section/fl2.svg');
+                }
+            }
+            &:nth-child(5) {
+                width: 598px;
+                padding-top: 36px;
+                margin-bottom: 0;
+                .partnership__cardsWrapper-card-descr {
+                    width: 201px;
+                }
+                &:before {
+                    content: '';
+                    position: absolute;
+                    width: 28px;
+                    height: 38px;
+                    top: -10px;
+                    left: -8px;
+                    background: url('../icons/10section/fl3.svg');
+                }
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 159px;
+                    height: 103px;
+                    right: -40px;
+                    bottom: -14px;
+                    background: url('../icons/10section/fl4.svg');
+                }
+            }
+            &-image {
+                display: block;
+                width: 28px;
+                height: 28px;
+                margin: 0 auto;
+                background: url('../icons/10section/check-circle.svg');
+            }
+            &-title {
+                padding-top: 10px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #8BB936;
+            }
+            &-descr {
+                margin: 0 auto;
+                padding-top: 5px;
+                text-align: center;
+                width: 214px;
+            }
+        }
+    }
+}

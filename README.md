@@ -4,6 +4,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(24-09-21 21:40 МСК+2) =11=
+- Собрана десятая секция "Партнерство".
+- The tenth section "Partnership" has been assembled.
+
+
 (24-09-21 20:55 МСК+2) =10=
 - Собрана девятая секция "Доставка". Форма, как и ранее такая же, в секции "Ассортимент" вынесена в отдельный SCSS-файл.
 - The ninth section "Delivery" has been assembled. The form, as before, is the same, in the "Assortment" section, it is placed in a separate SCSS file.
