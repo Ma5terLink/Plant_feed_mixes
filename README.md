@@ -3,6 +3,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(24-09-21 18:55) =08=
+- Собрана седьмая секция "Ответственность".
+- The seventh section "Responsibility" has been assembled.
+
 (23-09-21 23:50) =07=
 - Собрана шестая секция "Лидерские условия". Мелкие правки верстки.
 - The sixth section "Leadership conditions"has been assembled. Minor layout edits.
