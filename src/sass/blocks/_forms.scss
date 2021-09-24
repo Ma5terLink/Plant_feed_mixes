@@ -24,6 +24,84 @@
         }
     }
 }
+
+
+
+
+
+.delivery {
+    &__form {
+        margin-top: 30px;
+    }
+    &__formWrapper {
+        display:flex;
+        flex-direction: column;
+        position: relative;
+        width: 731px;
+        margin-top: 21px;
+        justify-content: space-between;
+        &-pic {
+            position: absolute;
+            top: 16px;
+            left: 17px;
+            z-index: 1;
+            &:nth-child(3) {
+                top: 96px;
+            }
+        }
+    }
+    
+    &__input {
+        position: relative;
+        padding: 0 15px 0 39px;
+        width: 618px;
+        height: 60px;
+        margin-bottom: 20px;
+        color: var(--color-black);
+        background: #F4F4F4;
+        box-shadow: inset 0px -2px 11px rgba(0, 0, 0, 0.07);
+        border-radius: 5px;
+        border:none;
+        outline: none;
+        &::placeholder {
+            color: #5a5a5a;
+        }
+        &:nth-child(5) {
+            box-shadow: none;
+            &::placeholder {
+                color: var(--color-black);
+            }
+        }
+    }
+    &__buttonBlock {
+        display: flex;
+        &-link {
+            margin-left: 26px;
+            align-self: center;
+            a {
+                color: var(--color-main-orange);
+            }
+        }
+        &-btn-order {
+            width: 309px;
+            height: 70px;
+            border: none;
+            color: var(--color-white);
+            background-color: var(--color-main-orange);
+            box-shadow: 0px 4px 17px var(--color-main-orange);
+            border-radius: 1px;
+            &:focus, &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+    
+}
+
+
+
+
+
 .btn_getPrice {
     width: 268px;
     height: 46px;

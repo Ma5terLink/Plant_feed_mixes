@@ -1,0 +1,18 @@
+.delivery {
+    position: relative;
+    min-height: 500px;
+    top: 720px;
+    margin-top: 200px;
+    .leadConditions__subtitle {
+        width: 672px;
+    }
+    &__mapImage {
+        position: absolute;
+        width: 868px;
+        height: 480px;
+        top: 20px;
+        left: 644px;
+        background: url('../img/9section/pic1.png');
+        z-index: -1;
+    }
+}
