@@ -1,19 +1,30 @@
 - Шаблон сайта для завода кормовых смесей.
 - A website template for a feed mixture plant.
+
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
+
+
+
+(24-09-21 19:40) =09=
+- Собрана восьмая секция "Партнёры".
+- The eighth section "Partners"has been assembled.
+
 
 (24-09-21 18:55) =08=
 - Собрана седьмая секция "Ответственность".
 - The seventh section "Responsibility" has been assembled.
 
+
 (23-09-21 23:50) =07=
 - Собрана шестая секция "Лидерские условия". Мелкие правки верстки.
 - The sixth section "Leadership conditions"has been assembled. Minor layout edits.
 
+
 (23-09-21 21:35 МСК+2) =06=
 - Собрана пятая секция "Завод". Мелкие правки в секциях ПРОМО и МЕНЮ.
 - The fifth section "Plant" has been assembled. Minor edits in the PROMO and MENU sections.
+
 
 (22-09-21 00:00 МСК+2) =05=
 - Собрана четвертая секция "Комплексный подход".
