@@ -1,0 +1,71 @@
+.answers {
+    position: relative;
+    min-height: 511px;
+    top: 720px;
+    margin-top: 200px;
+    &__bigWrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 50px;
+    }
+    &__cardsBlock {
+        display: flex;
+        flex-direction: column;
+        &-card {
+            position: relative;
+            width: 842px;
+            min-height: 116px;
+            padding: 26px 0 0 34px;
+            margin-bottom: 10px;
+            border: 1px solid #E1E1E1;
+            box-sizing: border-box;
+            border-radius: 5px;
+            &:before {
+                content: '';
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                top: 50%;
+                transform: translate3d(calc(-50% - 34px), -50%, 0);
+                background: var(--color-white);
+                border-radius: 100%;
+            }
+            &:after {
+                content: '';
+                position: absolute;
+                width: 22px;
+                height: 22px;
+                top: 50%;
+                transform: translate3d(calc(-50% - 34px), -50%, 0);
+                background: linear-gradient(90.47deg, var(--color-bgGreen-gr100-1) 0.8%, var(--color-bgGreen-gr100-2) 96.85%);
+                border-radius: 100%;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &:nth-child(2) {
+                .answers__cardsBlock-card-descr {
+                    width: 651px;
+                }
+            }
+            &:nth-child(3) {
+                height: 133px;
+                padding-top: 24px;
+                .answers__cardsBlock-card-descr {
+                    width: 768px;
+                }
+            }
+            &-title {
+                color: #8BB936;
+                text-transform: uppercase;
+            }
+            &-descr {
+                padding-top: 5px;
+                width: 542px;
+            }
+        }
+    }
+    &__imageBlock {
+        margin-left: 13px;
+    }
+}

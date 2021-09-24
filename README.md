@@ -4,6 +4,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(24-09-21 22:56 МСК+2) =12=
+- Собрана одиннадцатая секция "Ответы". В последней карточке левый паддинг на 5 пикселей меньше, чем у предыдущих. Возможно это недочёт дизайнера. Оставил паддинги одинаковыми, чтобы криво не смотрелось.
+- The eleventh section "Answers"has been collected. In the last card, the left padding is 5 pixels smaller than the previous ones. Perhaps this is a designer's flaw. I left the paddings the same, so that it didn't look crooked.
+
 (24-09-21 21:40 МСК+2) =11=
 - Собрана десятая секция "Партнерство".
 - The tenth section "Partnership" has been assembled.
