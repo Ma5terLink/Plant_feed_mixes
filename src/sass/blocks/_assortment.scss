@@ -3,7 +3,17 @@
     padding-top: 200px;
     min-height: 1749px;
     top: 710px;
-
+    .subtitle01 {
+        width: 351px;
+        &:before {
+            width: 351px;
+        }
+    }
+    .subtitleText {
+        &.second {
+            left: 33px;
+        }
+    }
     &__cards {
         display: flex;
         margin-top: 50px;

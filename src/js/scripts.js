@@ -1,29 +1,26 @@
 window.addEventListener('DOMContentLoaded', () => {
 
-
-// Плавный скролл и класс pageup
-$(window).scroll(function () {
-    /* console.log($(this).scrollTop()) */
-    if ($(this).scrollTop() > 700) {
-        $('.pageup').fadeIn();
+window.addEventListener('scroll', function () {
+    const pUp = document.querySelector('.pageup');
+    if (window.pageYOffset > 700) {
+        pUp.classList.add('show');
+        pUp.classList.remove('hide');
     } else {
-        $('.pageup').fadeOut();
+        pUp.classList.remove('show');
+        pUp.classList.add('hide');
     }
 });
 
-$("a[href^='#up']").click(function () {
-    var _href = $(this).attr("href");
-    $("html, body").animate({scrollTop: '0'});
-    //$("html, body").animate({scrollTop: $(_href).offset().top+"px"}); */
-    return false;
-});
+const links = document.querySelectorAll('a[href^="#"]');// все ссылки, с атрибутом href, начинающимся с "#"
+links.forEach(item => item.addEventListener('click', function(e) {
+	e.preventDefault();
+	const id = item.getAttribute('href').slice(1);
 
-
-
-
-
-
-
+	document.getElementById(id).scrollIntoView({
+		behavior: 'smooth',
+		block: 'start',
+	});
+}));
 
 
 

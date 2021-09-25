@@ -4,6 +4,17 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(25-09-21 09:10 МСК+2) =14=
+- Собраны секции 13(Новости) и 14(Контакты). Верстка десктоп-версии закончена.
+- Переделан класс pageUp, на использование средств JS, без применения библиотеки jquery (на будущее - поправить margin и padding'и в секциях, так чтобы прокрутка к ним выглядела более адекватно, нежели сейчас).
+- В 14 секции подзаголовок из псевдоэлементов, с применением к нему градиента, создать пока не получилось - решено было использовать просто картинку, но в формате SVG. В той же секции чекбокс до сих пор имеет границы (позже попробую найти решение). Outline на него не влияет, почему-то. 
+- Переделаны, внесены изменения в способ формирования фигурных(флажки) заголовков. 
+- Sections 13(News) and 14(Contacts) are collected. The layout of the desktop version is finished.
+- The PageUp class has been redesigned to use JS tools, without using the jquery library (for the future, we need to correct margin and padding in sections, so that scrolling to them looks more adequate than now).
+- In the 14th section, it has not yet been possible to create a subtitle from pseudo-elements, with the application of a gradient to it - it was decided to use just a picture, but in SVG format. In the same section, the checkbox still has boundaries (I'll try to find a solution later). Outline does not affect it, for some reason.
+- Redesigned, changes were made to the method of forming curly headers.
+
+
 (25-09-21 00:15 МСК+2) =13=
 - Собрана двенадцатая секция "Поставщикам".
 - The twelfth section "To Suppliers" has been assembled.

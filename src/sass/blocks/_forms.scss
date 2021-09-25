@@ -23,6 +23,18 @@
             color: var(--color-black);
         }
     }
+    &__btn {
+        width: 268px;
+        height: 46px;
+        border: none;
+        color: var(--color-white);
+        background-color: var(--color-main-orange);
+        box-shadow: 0px 4px 17px var(--color-main-orange);
+        border-radius: 1px;
+        &:focus, &:focus-visible {
+            outline: none;
+        }
+    }
 }
 
 
@@ -102,15 +114,72 @@
 
 
 
-.btn_getPrice {
-    width: 268px;
-    height: 46px;
-    border: none;
-    color: var(--color-white);
-    background-color: var(--color-main-orange);
-    box-shadow: 0px 4px 17px var(--color-main-orange);
-    border-radius: 1px;
-    &:focus, &:focus-visible {
-        outline: none;
+
+
+.question {
+    &__form {
+        width: 100%;
+        height: 100%;
+        background: url('../img/bg/x14.svg');
+        input {
+            width: 515px;
+            height: 55px;
+            margin: 0 0 10px 34px;
+            padding: 0 30px;
+            color: var(--color-black);
+            border:none;
+            outline: none;
+            &::placeholder {
+                color: #575757;
+            }
+        }
+        textarea {
+            width: 515px;
+            height: 130px;            
+            margin: 0 0 10px 34px;
+            padding: 22px 30px;
+            color: var(--color-black);
+            resize: none;
+            border:none;
+            outline: none;
+            &::placeholder {
+                color: #575757;
+            }
+        }
+    }
+    &__title {
+        padding: 40px 0 20px 34px;
+    }
+    &__btn {
+        display: block;
+        width: 515px;
+        height: 70px;
+        margin: 0 auto;
+        border: none;
+        color: var(--color-white);
+        background-color: var(--color-main-orange);
+        box-shadow: 0px 4px 17px var(--color-main-orange);
+        border-radius: 1px;
+        &:focus, &:focus-visible {
+            outline: none;
+        }
+    }
+    &__policy {
+        margin-top: 18px;
+        input {
+            position: relative;
+            width: 18px;
+            height: 18px;
+            top: 3px;
+            margin-right: 9px;
+            border:none;
+            outline: none;
+        }
     }
 }
+
+
+
+
+
+

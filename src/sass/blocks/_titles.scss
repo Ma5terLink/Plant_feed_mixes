@@ -1,5 +1,5 @@
 .title { text-transform: uppercase; }
-.subtitleWrapper { display:flex; }
+.subtitleWrapper { display:flex; position: relative; }
 .subtitle {
     padding: 8px 36px 8px 20px;
     margin-top: 10px;
@@ -12,17 +12,49 @@
         width: 153px;
     }
 }
-.triangle {
+
+.subtitleText {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    color: var(--color-white);
+}
+
+.subtitle01 {
+    display: block;
     position: relative;
-    top: 8px;
-    left: -11px;
-    width: 0;
-    height: 0;
-    border-top: 20px solid transparent;
-    border-right: 11px solid white;
-    border-bottom: 20px solid transparent;
-    border-radius: 1px;
-    &.second {
+    width: 477px;
+    height: 36px;
+    margin-top: 10px;
+    border-right: 30px solid transparent;
+    border-bottom: 36px solid var(--color-main-orange);
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 477px;
         top: 0px;
+        left: 0px;
+        border-top: 36px solid var(--color-main-orange);
+        border-right: 30px solid transparent;
+    }
+}
+.subtitle02 {
+    display: block;
+    position: relative;
+    width: 153px;
+    height: 41px;
+    margin-top: 10px;
+    border-right: 30px solid transparent;
+    border-bottom: 36px solid var(--color-main-orange);
+    &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 153px;
+        top: 0px;
+        left: 0px;
+        border-top: 36px solid var(--color-main-orange);
+        border-right: 30px solid transparent;
     }
 }

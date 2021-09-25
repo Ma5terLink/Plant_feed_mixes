@@ -3,6 +3,12 @@
     top: 710px;
     margin-top: 200px;
     min-height: 1372px;
+    .subtitle01 {
+        width: 728px;
+        &:before {
+            width: 728px;
+        }
+    }
     .container {
         min-height: 1372px;
     }
