@@ -94,11 +94,12 @@
                 display: flex;
                 position: relative;
                 width: 618px;
+                height: 333px;
                 margin-top: 29px;
                 border-radius: 5px;
                 img {
+                    width: 100%;
                     height: 100%;
-                    height: 333px;
                     object-fit: cover;
                 }
                 &-pointerWrapper {

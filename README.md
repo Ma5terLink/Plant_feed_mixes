@@ -4,6 +4,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(27-09-21 03:20 МСК+2) =16=
+- Адаптивность в разрешениях от 993px(ширина) и выше.
+- Adaptability in resolutions from 993px (width) and higher.
+
+
 (26-09-21 21:55 МСК+2) =15=
 - Собраны модальные окна. Реализован минимально необходимый интерактив в окнах, закрытие.
 - Modal windows are assembled. Implemented the minimum necessary interaction in windows, closing.
