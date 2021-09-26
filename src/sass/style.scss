@@ -49,6 +49,7 @@ html {
     --fs-21: 21px;
     --fs-22: 22px;
     --fs-24: 24px;
+    --fs-30: 30px;
     --fs-36: 36px;
     --fs-40: 40px;
     --fs-51: 51px;
@@ -84,6 +85,7 @@ h1, h2, h3, h4, h5, h6, ul {
 @import 'blocks/txtFontStyles';
 @import 'blocks/policy';
 @import 'blocks/pageup';
+@import 'blocks/modal';
 @import 'blocks/mainMenu';
 @import 'blocks/promo';
 @import 'blocks/titles';
@@ -101,6 +103,8 @@ h1, h2, h3, h4, h5, h6, ul {
 @import 'blocks/suppliers';
 @import 'blocks/news';
 @import 'blocks/contacts';
+
+
 
 
 @import 'blocks/views';

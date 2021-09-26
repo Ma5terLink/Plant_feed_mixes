@@ -23,7 +23,25 @@ links.forEach(item => item.addEventListener('click', function(e) {
 }));
 
 
+const modalProductSwitch = document.querySelectorAll('.modal__wrapperProductInfo-item');
+modalProductSwitch.forEach(item => {
+    item.addEventListener('click', () => {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+        } else {
+            item.classList.add('active');
+        }
+    });
+});
 
+const modalClose = document.querySelectorAll('.modal__close'),
+      modalOverlay = document.querySelector('.overlay');
+modalClose.forEach(item=> {
+    item.addEventListener('click', () => {
+        item.parentElement.classList.remove('show');
+        modalOverlay.classList.remove('show');
+    });
+});
 
 
 

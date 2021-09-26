@@ -1011,9 +1011,9 @@
                 <a class="suppliers__leftBlock-btn fz18lh21-600" href="#toTop">Стать поставщиком</a>
             </div>
             <div class="suppliers__rightBlock">
-                <div class="title fz36lh128p-bR">
+                <h2 class="title fz36lh128p-bR">
                     поставщикам сырья
-                </div>
+                </h2>
                 <div class="suppliers__rightBlock-promoWrapper">
                     <div class="suppliers__rightBlock-promoWrapper-BG"></div>
                     <div class="suppliers__rightBlock-promoWrapper-text fz16lh128p">
@@ -1208,8 +1208,174 @@
 
 
 
+<!-- МОДАЛЬНЫЕ ОКНА -->
+<div class="overlay"> 
+    <div class="modal" id="callBack">
+        <div class="modal__close"></div>
+        <div class="modal__title fz30lh128p-bR">заказать звонок</div>
+        <div class="modal__descr fz21lh128p-400R">
+            Напишите свои контакты и мы свяжемся с вами в течении 24 часов.
+        </div>
+        <form class="feed-form" action="#">
+            <input required class="name fz16lh128p-400" name="name" type="text" placeholder="Имя">
+            <input required class="phone fz16lh128p-400" name="phone" type="tel" placeholder="Телефон">
+            
+            <button class="fz21lh21-600">Заказать консультацию</button>
+            <div class="feed-form__wrapper fz14lh16-400">
+                <input required class="checkBOX" type="checkbox">
+                <span>Я согласен на обработку персональных данных</span>
+            </div>
+        </form>
+        <div class="modal__text fz21lh128p-400R">
+            Или свяжитесь с нами самостоятельно
+        </div>
+        <div class="modal__linksWrapper">
+            <div class="modal__linksWrapper-phone fz21lh128p-500R">
+                <a href="tel:+73433630569">+7 (343) 363 05 69</a>
+            </div>
+            <div class="modal__linksWrapper-mail fz14lh128p-500R">
+                <a href="mailto:ЗКС@зкс.рф">ЗКС@зкс.рф</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal modal_thanks" id="thanks">
+        <div class="modal__close"></div>
+        <div class="modal__title fz30lh128p-bR">спасибо за вашу заявку!</div>
+        <div class="modal__descr fz21lh128p-400R">
+            Мы свяжемся с вами в ближайшее время
+        </div>
+        <div class="modal__linksWrapper">
+            <div class="modal__linksWrapper-text">
+                А если ждать нельзя,<br>то скорее звоните нам
+            </div>
+            <div class="modal__linksWrapper-phone fz21lh128p-500R">
+                <a href="tel:+73433630569">+7 (343) 363 05 69</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="modal modal_thanksSecond" id="thanksSecond">
+        <div class="modal__close"></div>
+        <div class="modal__title fz30lh128p-bR">спасибо за вашу заявку!</div>
+        <div class="modal__descr fz21lh128p-400R">
+            Мы рассмотрим обращение, произведем расчет стоимости. И свяжемся с Вами сразу, как сформируем предложение
+        </div>
+        <div class="modal__linksWrapper">
+            <div class="modal__linksWrapper-text">
+                А если ждать нельзя,<br>то скорее звоните нам
+            </div>
+            <div class="modal__linksWrapper-phone fz21lh128p-500R">
+                <a href="tel:+73433630569">+7 (343) 363 05 69</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal_costCompare" id="costCompare">
+        <div class="modal__close"></div>
+        <div class="modal__title fz30lh128p-bR">Сравнить стоимость</div>
+        <div class="modal__descr fz16lh128p-400">
+            Напишите свои контакты и текущие условия вашего поставщика.<br>Мы произведем расчет стоимости и предложим лучшие условия для вас.
+        </div>
+        <form class="feed-form costCompare" action="#">
+            <textarea name="txtConditions" placeholder="Опишите текущие условия" cols="30" rows="10"></textarea>
+            <div class="costCompare__block">
+                <input required class="name fz16lh128p-400" name="name" type="text" placeholder="Имя">
+                <input required class="phone fz16lh128p-400" name="email" type="email" placeholder="E-mail"> 
+            </div>
+            <div class="costCompare__block">
+                <input required class="name fz16lh128p-400" name="phone" type="tel" placeholder="Телефон">
+                <input required class="phone fz16lh128p-400" name="supplier" type="text" placeholder="Текущий поставщик"> 
+            </div>
+            
+            <button class="fz21lh21-600">Заказать звонок</button>
+            <div class="feed-form__wrapper fz14lh16-400">
+                <input required class="checkBOX" type="checkbox">
+                <span>Я согласен на обработку персональных данных</span>
+            </div>
+        </form>
+        <div class="modal__text fz21lh128p-400R">
+            Или свяжитесь с нами самостоятельно
+        </div>
+        <div class="modal__linksWrapper">
+            <div class="modal__linksWrapper-phone fz21lh128p-500R">
+                <a href="tel:+73433630569">+7 (343) 363 05 69</a>
+            </div>
+            <div class="modal__linksWrapper-mail fz14lh128p-500R">
+                <a href="mailto:ЗКС@зкс.рф">ЗКС@зкс.рф</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal_product" id="productShow">
+        <div class="modal__close"></div>
+        <div class="modal__title fz30lh128p-bR">Энергетический сироп «поедайка»</div>
+        <div class="modal__wrapper">
+            <div class="modal__wrapper-item">
+                Повышение поедаемости объемистых кормов.
+            </div>
+            <div class="modal__wrapper-item">
+                Повышение продуктивности от 2 до 4 кг.
+            </div>
+            <div class="modal__wrapper-item">
+                Профилактика ацидоза, кетоза.
+            </div>
+        </div>
+        <div class="modal__wrapperProductInfo">
+            <div class="modal__wrapperProductInfo-item active">
+                <div class="modal__wrapperProductInfo-item-title">Состав</div>
+                <div class="modal__wrapperProductInfo-item-descr">Сахароза, глюкоза, фруктоза, мальтоза, глицерин, пищевой ароматизатор.</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Форма выпуска</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem ipsum dolor sit amet.</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Описание</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt odio distinctio unde, tempora saepe amet sapiente nihil enim eum excepturi sit dolore cumque aperiam illum cum, in doloribus, modi quis.</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Применение</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, totam quos aspernatur corrupti accusamus voluptatem qui officiis rem optio reiciendis exercitationem corporis voluptatibus excepturi dolore maxime quo molestiae consequuntur iste vero. Tempore voluptatem similique, deserunt quo, nobis illum iste aut possimus sapiente architecto dignissimos rem quisquam ad ipsum esse consequatur!</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Рекомендуемые нормы ввода</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo rem at minus sapiente enim nesciunt eum illum modi consequatur dolore.</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Упаковка</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem ipsum dolor sit amet, consectetur adipisicing.</div>
+            </div>
+            <div class="modal__wrapperProductInfo-item">
+                <div class="modal__wrapperProductInfo-item-title">Условия и срок хранения</div>
+                <div class="modal__wrapperProductInfo-item-descr">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, magnam.</div>
+            </div>
+        </div>
+        <form class="feed-form form-product" action="#">
+            <div class="modal__subtitle fz21lh128p-400R">Получите расчет стоимости под вашу задачу</div>
+            <div class="modal__descr fz16lh128p-400">Напишите свои контакты и мы свяжемся с вами в течение 24 часов для уточнения деталей, после чего отправим КП с лучшими условиями.</div>
+            <div class="costCompare__block">
+                <input required class="name fz16lh128p-400" name="name" type="text" placeholder="Имя">
+                <input required class="phone fz16lh128p-400" name="email" type="email" placeholder="E-mail"> 
+            </div>
+            <div class="costCompare__block">
+                <input required class="name fz16lh128p-400" name="phone" type="tel" placeholder="Телефон">
+                <button class="fz21lh21-600">Заказать звонок</button>
+            </div>
+        </form>
+        <div class="modal__text fz21lh128p-400R">
+            Или свяжитесь с нами самостоятельно
+        </div>
+        <div class="modal__linksWrapper">
+            <div class="modal__linksWrapper-phone fz21lh128p-500R">
+                <a href="tel:+73433630569">+7 (343) 363 05 69</a>
+            </div>
+            <div class="modal__linksWrapper-mail fz14lh128p-500R">
+                <a href="mailto:ЗКС@зкс.рф">ЗКС@зкс.рф</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
