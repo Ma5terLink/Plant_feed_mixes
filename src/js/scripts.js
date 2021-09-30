@@ -11,7 +11,7 @@ window.addEventListener('scroll', function () {
     }
 });
 
-const links = document.querySelectorAll('a[href^="#"]');// все ссылки, с атрибутом href, начинающимся с "#"
+const links = document.querySelectorAll('a[href^="#"]');
 links.forEach(item => item.addEventListener('click', function(e) {
 	e.preventDefault();
 	const id = item.getAttribute('href').slice(1);
@@ -42,6 +42,28 @@ modalClose.forEach(item=> {
         modalOverlay.classList.remove('show');
     });
 });
+
+function closeMobMenu() {
+    menuOverLay.classList.remove('show');
+    mobMenu.classList.remove('active');
+}
+
+const hamburgerBtn = document.querySelector('.hamburger'),
+      mobMenu = document.querySelector('.mobMenu'),
+      mobMenuLinks = document.querySelectorAll('.mobMenu ul li a'),
+      mobMenuCloseBtn = document.querySelector('.mobMenu__btn-close'),
+      menuOverLay = document.querySelector('.menuOverlay');
+
+mobMenuLinks.forEach(item => {
+    item.addEventListener('click', () => closeMobMenu());
+});
+
+hamburgerBtn.addEventListener('click', () => {
+    menuOverLay.classList.add('show');
+    mobMenu.classList.add('active');
+});
+mobMenuCloseBtn.addEventListener('click', () => closeMobMenu());
+
 
 
 

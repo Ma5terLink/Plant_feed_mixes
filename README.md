@@ -4,6 +4,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(01-10-21 04:40 МСК+2) =17=
+- Ранее было решено изменить подход к адаптации и адаптировать каждую следующую секцию под очередные разрешения. Так мне показалось проще. На данный момент заадаптировано по четвёртую секцию, во всех основных разрешениях.
+- Earlier it was decided to change the approach to adaptation and adapt each next section to the next permissions. It seemed easier that way. At the moment, it has been adapted for the fourth section, in all major resolutions.
+
+
 (27-09-21 03:20 МСК+2) =16=
 - Адаптивность в разрешениях от 993px(ширина) и выше.
 - Adaptability in resolutions from 993px (width) and higher.

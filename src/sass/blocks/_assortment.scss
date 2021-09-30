@@ -135,6 +135,9 @@
             box-sizing: border-box;
             border-radius: 175px;
         }
+        &-blc, &-blc2 {
+            display: none; 
+        }
     }
     &__form{
         background-image: linear-gradient(90deg, var(--color-bgLightYellow-gr100-1), var(--color-bgLightYellow-gr100-2));

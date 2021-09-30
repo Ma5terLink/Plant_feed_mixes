@@ -17,10 +17,11 @@
         width: 275px;
         height: 46px;
         text-align: center;
+        color: var(--color-black);
         border:none;
         outline: none;
         &::placeholder {
-            color: var(--color-black);
+            color: #575757;
         }
     }
     &__btn {
