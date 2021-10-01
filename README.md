@@ -4,6 +4,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(01-10-21 05:15 МСК+2) =17-1=
+- Мелкие исправления в адаптации 320p.
+- Minor fixes in the 320p adaptation.
+
 (01-10-21 04:40 МСК+2) =17=
 - Ранее было решено изменить подход к адаптации и адаптировать каждую следующую секцию под очередные разрешения. Так мне показалось проще. На данный момент заадаптировано по четвёртую секцию, во всех основных разрешениях.
 - Earlier it was decided to change the approach to adaptation and adapt each next section to the next permissions. It seemed easier that way. At the moment, it has been adapted for the fourth section, in all major resolutions.
