@@ -4,6 +4,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(07-01-21 04:10 МСК+2) =23=
+- Адаптирована 13 секция. Написан и подогнан простой слайдер (работает на всех разрешениях).
+- Adapted section 13. A simple slider has been written and adjusted (it works on all resolutions).
+
+
 (07-01-21 01:20 МСК+2) =22=
 - Адаптирована 12 секция.
 - Adapted section 12.

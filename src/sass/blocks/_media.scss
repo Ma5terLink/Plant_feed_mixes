@@ -430,8 +430,8 @@
     .pageup {
         width: 50px;
         height: 50px;
-        bottom: 30px;
-        right: 30px;
+        bottom: 40px;
+        right: 75px;
     }
     .menu {
         .mainMenu {
@@ -1185,6 +1185,7 @@
     }
     .suppliers {
         margin-top: 170px;
+        height: 427px;
         .title {
             margin-left: 0;
             padding: 0;
@@ -1257,15 +1258,62 @@
             }
         }
     }
+    .news {
+        margin-top: 170px;
+        height: 690px;
+        .container {
+            height: 690px;
+        }
+        .title {
+            margin-left: 0;
+            font-size: 30px;
+        }
+        .subtitleWrapper {
+            margin-left: 0;
+        }
+        &__border {display: none;}
+        &__container {
+            width: calc(100% + 20px);
+            height: 426px;
+            margin-top: 50px;
+            overflow: hidden;
+        }
+        &__cardsWrapper {
+            position: relative;
+            width: max-content;
+            margin: 0;
+            transition: 1.5s ease all;
+            &-card {
+                margin: 0 20px 0 0px;
+                width: 289px;
+                height: 426px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &-descr {
+                    font-size: 16px;
+                }
+            }
+        }
+        &__slider-nav {
+            display: flex;
+            margin-top: 40px;
+        }
+        &__btn {
+            position: relative;
+            top: -80px;
+            margin-top: 20px;
+        }
+    }
 
 }
 
 @media (max-width: 767px) {
     .pageup {
-        width: 30px;
-        height: 30px;
-        bottom: 15px;
-        right: 15px;
+        width: 44px;
+        height: 44px;
+        bottom: 22px;
+        right: 22px;
         svg path {
             fill: var(--color-vinous);
         }
@@ -1717,6 +1765,19 @@
                     }
                 }
             }
+        }
+    }
+    .news {
+        margin-top: 150px;
+        &__cardsWrapper {
+            &-card {
+                width: 247px;
+            }
+        }
+        &__container {
+            width: 520px;
+            margin: 0 auto;
+            margin-top: 50px;
         }
     }
 
@@ -2636,6 +2697,70 @@
                 }
             }
         }
+    }
+    .news {
+        min-height: unset;
+        height: 603px;
+        margin-top: 120px;
+        .container {
+            height: 603px;
+        }
+        .title {
+            font-size: 20px;
+        }
+        .subtitleWrapper {
+            margin-top: 10px;
+        }
+        .subtitle01 {
+            width: 279px;
+            margin-top: 0;
+            border-bottom: 50px solid var(--color-main-orange);
+            &:before {
+                width: 279px;
+                border-top: 50px solid var(--color-main-orange);
+            }
+        }
+        .subtitleText {
+            top: 9px;
+            width: 210px;
+            font-size: 13px;
+
+        }
+        &__container {
+            width: 300px;
+            height: 309px;
+            margin: 0 auto;
+            margin-top: 31px;
+        }
+        &__cardsWrapper {
+            &-card {
+                width: 280px;
+                min-height: unset;
+                height: 309px;
+                &-image {
+                    height: 183px;
+                }
+                &-title {
+                    font-size: 15px;
+                    line-height: 18px;
+                }
+                &-descr {
+                    margin-top: 5px;
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+        }
+        &__slider-nav {
+            margin-top: 20px;
+        }
+        &__btn {
+            top: 0;
+            width: 100%;
+            padding: 25px 0 0 0;
+            text-align: center;
+        }
+
     }
 
 }
