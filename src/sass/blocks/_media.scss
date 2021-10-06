@@ -1183,6 +1183,80 @@
             display: none;
         }
     }
+    .suppliers {
+        margin-top: 170px;
+        .title {
+            margin-left: 0;
+            padding: 0;
+            font-size: 30px;
+            text-align: end;
+        }
+        &__leftBlock {
+            width: 354px;
+            height: 200px;
+            img {
+                height: 100%;
+            }
+            &-btn {
+                height: 65px;
+                margin-top: 11px;
+                padding-top: 23px;
+                font-size: 16px;
+                padding-left: 102px;
+            }
+        }
+        &__rightBlock {
+            width: 374px;
+            &-promoWrapper {
+                height: 67px;
+                margin-top: 22px;
+                &-text {
+                    width: 292px;
+                    padding: 16px 0 0 23px;
+                }
+            }
+            &-notice {
+                margin-top: 32px;
+                flex-direction: column;
+                &-important {
+                    padding: 0 0 0 23px;
+                    font-size: 16px;
+                }
+                &-text {
+                    width: 359px;
+                    padding: 5px 0 0 23px;
+                    font-size: 14px;
+                }
+            }
+            &-text2 {
+                top: 39px;
+                left: -354px;
+                margin: 0;
+            }
+            &-linksWrapper {
+                position: relative;
+                width: 728px;
+                top: 40px;
+                left: -374px;
+                &-phone {
+                    width: 354px;
+                    height: 80px;
+                    a {
+                        font-size: 22px;
+                        margin: 26px 0 0 101px;
+                    }
+                }
+                &-mail {
+                    width: 354px;
+                    height: 80px;
+                    a {
+                        font-size: 18px;
+                        margin: 29px 0 0 138px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -1565,7 +1639,86 @@
             }
         }
     }
-    
+    .suppliers {
+        height: 848px;
+        margin-top: 150px;
+        .title {
+            position: absolute;
+            top: -20px;
+            left: 0;
+        }
+        &__mainWrapper {
+            flex-direction: column-reverse;
+        }
+        &__leftBlock {
+            position: relative;
+            top: -80px;
+            width: 100%;
+            height: 100%;
+            a {
+                padding-left: 195px;
+                font-size: 18px;
+            }
+        }
+        &__rightBlock {
+            width: 100%;
+            &-promoWrapper {
+                position: absolute;
+                top: 30px;
+                left: 0;
+                width: 100%;
+                margin-top: 0;
+                &-text {
+                    width: 375px;
+                    padding-top: 12px;
+                    font-size: 18px;
+                }
+            }
+            &-notice {
+                position: relative;
+                top: 116px;
+                left: 0;
+                margin: 0;
+                &-important {
+                    padding-left: 0;
+                    font-size: 18px;
+                }
+                &-text {
+                    padding-left: 0;
+                    font-size: 16px;
+                    width: 100%;
+                }
+            }
+            &-text2 {
+                position: relative;
+                top: 540px;
+                left: 0;
+            }
+            &-linksWrapper {
+                position: relative;
+                flex-direction: column;
+                top: 540px;
+                left: -20px;
+                width: 100%;
+                &-phone {
+                    width: 100%;
+                    height: 80px;
+                    margin: 0 0 20px 20px;
+                    a {
+                        margin: 26px 0 0 200px;
+                    }
+                    }
+                &-mail {
+                    width: 100%;
+                    height: 80px;
+                    margin: 0 0 0 20px;
+                    a {
+                        margin: 29px 0 0 240px;
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -2380,6 +2533,7 @@
             &-card {
                 width: calc(100vw - 40px);
                 height: 156px;
+                margin-bottom: 10px;
                 &:before, &:after {
                     transform: translate3d(calc(-50% - 20px), -50%, 0);
                 }
@@ -2417,6 +2571,68 @@
                 }
                 &-descr {
                     font-size: 13px;
+                }
+            }
+        }
+    }
+    .suppliers {
+        margin-top: 120px;
+        height: 660px;
+        .title {
+            top: 0;
+            left: 20px;
+            font-size: 20px;
+        }
+        &__leftBlock {
+            top: -40px;
+            img {
+                height: 155px;
+            }
+            a {
+                height: 50px;
+                padding: 0;
+                padding-top: 17px;
+                font-size: 13px;
+                text-align: center;
+            }
+        }
+        &__rightBlock {
+            &-promoWrapper {
+                width: 280px;
+                margin-left: 20px;
+                &-text {
+                    width: 280px;
+                    padding: 17px 0 0 20px;
+                    font-size: 13px;
+                }
+            }
+            &-notice {
+                &-important {font-size: 15px;}
+                &-text {font-size: 13px;}
+            }
+            &-text2 {
+                top: 380px;
+                font-size: 14px;
+                &:after {
+                    left: 218px;
+                }
+            }
+            &-linksWrapper {
+                top: 380px;
+                &-phone {
+                    height: 63px;
+                    margin-bottom: 10px;
+                    a {
+                        font-size: 18px;
+                        margin: 20px 0 0 calc((100vw / 2) - 80px);
+                    }
+                }
+                &-mail {
+                    height: 63px;
+                    a {
+                        font-size: 14px;
+                        margin: 23px 0 0 calc((100vw / 2) - 48px);
+                    }
                 }
             }
         }
