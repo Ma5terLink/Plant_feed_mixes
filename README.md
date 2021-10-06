@@ -4,6 +4,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(06-01-21 18:30 МСК+2) =19=
+- Адаптирована 9 секция.
+- Adapted section 9.
+
 (06-10-21 17:30 МСК+2) =18=
 - Продолжена работа над сайтом. Заадаптированы секции 5 - 8. Добавлен вертикальный слайдер в восьмую секцию на разрешениях от 320 до 576 (ширина).
 - Continued work on the site. Sections 5-8 have been adapted. A vertical slider has been added to the eighth section at resolutions from 320 to 576 (width).

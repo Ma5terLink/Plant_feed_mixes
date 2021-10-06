@@ -4005,6 +4005,47 @@ h1, h2, h3, h4, h5, h6, ul {
   .partners__cardsWrapper-card-info img {
     transform: translate3d(-50%, -50%, 0) scale(0.9);
   }
+
+  .delivery {
+    margin-top: 170px;
+  }
+  .delivery .title {
+    margin-left: 0;
+    font-size: 30px;
+  }
+  .delivery .leadConditions__subtitle {
+    min-width: 672px;
+    width: 100%;
+    font-size: 16px;
+  }
+  .delivery__form {
+    width: 728px;
+    margin-left: 0;
+  }
+  .delivery__form input {
+    width: 100%;
+  }
+  .delivery__form input:nth-child(5) {
+    padding-left: 16px;
+  }
+  .delivery__formWrapper {
+    width: 100%;
+    margin-top: 0;
+  }
+  .delivery__buttonBlock-btn-order {
+    height: 65px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .delivery__mapImage {
+    position: relative;
+    width: 664px;
+    height: 366px;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    margin-top: 46px;
+  }
 }
 @media (max-width: 767px) {
   .pageup {
@@ -4348,6 +4389,21 @@ h1, h2, h3, h4, h5, h6, ul {
   .partners__cardsWrapper-card:nth-child(9) {
     background: url("../img/8section/card9.png");
     margin-bottom: 20px;
+  }
+
+  .delivery {
+    margin-top: 130px;
+  }
+  .delivery .leadConditions__subtitle {
+    min-width: 500px;
+    width: 100%;
+  }
+  .delivery__form {
+    width: 100%;
+  }
+  .delivery__mapImage {
+    width: 500px;
+    margin-top: 20px;
   }
 }
 @media (max-width: 576px) {
@@ -5003,6 +5059,7 @@ h1, h2, h3, h4, h5, h6, ul {
   }
 
   .partners {
+    min-height: 471px;
     margin-top: 107px;
   }
   .partners .title {
@@ -5040,5 +5097,37 @@ h1, h2, h3, h4, h5, h6, ul {
   }
   .partners__slider-nav {
     display: flex;
+  }
+
+  .delivery {
+    margin-top: 101px;
+  }
+  .delivery .title {
+    font-size: 20px;
+  }
+  .delivery .divider {
+    width: 23px;
+  }
+  .delivery .leadConditions__subtitle {
+    min-width: 252px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 13px;
+  }
+  .delivery__formWrapper input {
+    margin-bottom: 10px;
+  }
+  .delivery__buttonBlock {
+    flex-wrap: wrap;
+  }
+  .delivery__buttonBlock-link {
+    margin: 20px 0 0 0;
+    text-align: center;
+    font-size: 13px;
+  }
+  .delivery__mapImage {
+    width: 290px;
+    height: 158px;
+    margin-top: 15px;
   }
 }

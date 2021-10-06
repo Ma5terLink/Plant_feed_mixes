@@ -1073,7 +1073,46 @@
             }
         }
     }
-
+    .delivery {
+        margin-top: 170px;
+        .title {
+            margin-left: 0;
+            font-size: 30px;
+        }
+        .leadConditions__subtitle {
+            min-width: 672px;
+            width: 100%;
+            font-size: 16px;
+        }
+        &__form {
+            width: 728px;
+            margin-left: 0;
+            input {
+                width: 100%;
+                &:nth-child(5){
+                    padding-left: 16px;
+                }
+            }
+        }
+        &__formWrapper {
+            width: 100%;
+            margin-top: 0;
+        }
+        &__buttonBlock-btn-order {
+            height: 65px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__mapImage {
+            position: relative;
+            width: 664px;
+            height: 366px;
+            top: 0;
+            left: 0;
+            margin: 0 auto;
+            margin-top: 46px;
+        }
+    }
 
 
 }
@@ -1408,6 +1447,20 @@
                 &:nth-child(8) { background: url('../img/8section/card8.png'); margin-bottom: 20px; }
                 &:nth-child(9) { background: url('../img/8section/card9.png'); margin-bottom: 20px; }
             }
+        }
+    }
+    .delivery {
+        margin-top: 130px;
+        .leadConditions__subtitle {
+            min-width: 500px;
+            width: 100%;
+        }
+        &__form {
+            width: 100%;
+        }
+        &__mapImage {
+            width: 500px;
+            margin-top: 20px;
         }
     }
 
@@ -2082,6 +2135,7 @@
         }
     }
     .partners {
+        min-height: 471px;
         margin-top: 107px;
         .title {
             font-size: 20px;
@@ -2120,6 +2174,39 @@
         }
         &__slider-nav {
             display: flex;
+        }
+    }
+    .delivery {
+        margin-top: 101px;
+        .title {
+            font-size: 20px;
+        }
+        .divider {
+            width: 23px;
+        }
+        .leadConditions__subtitle {
+            min-width: 252px;
+            width: 100%;
+            margin-left: 5px;
+            font-size: 13px;
+        }
+        &__formWrapper {
+            input {
+                margin-bottom: 10px;
+            }
+        }
+        &__buttonBlock {
+            flex-wrap: wrap;
+            &-link {
+                margin: 20px 0 0 0;
+                text-align: center;
+                font-size: 13px;
+            }
+        }
+        &__mapImage {
+            width: 290px;
+            height: 158px;
+            margin-top: 15px;
         }
     }
 
