@@ -7,6 +7,9 @@
         font-weight: bold;
         color: var(--color-main-orange);
     }
+    .leadConditions__subtitle {
+        width: 793px;
+    }
     &__cardsWrapper {
         display: flex;
         margin-top: 50px;
@@ -49,10 +52,18 @@
                     transform: translate3d(-50%, -50%, 0);
                 }            
             }
-
         }
     }
-
+    &__slider-nav {
+        display: none;
+        justify-content: space-between;
+    }
+    &__slider-prev, &__slider-next {
+        position: relative;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
 
 
 }

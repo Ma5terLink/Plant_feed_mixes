@@ -11,6 +11,7 @@
         }
     }
     &__subtitle {
+        width: 793px;
         margin-left: 15px;
     }
     &__cardsWrapper {
@@ -27,15 +28,27 @@
             border-radius: 5px;
             &:nth-child(2) {
                 background: url('../img/6section/card2.png');
+                .leadConditions__cardsWrapper-card-descr {
+                    width: 369px;
+                }
             }
             &:nth-child(3) {
                 background: url('../img/6section/card3.png');
+                .leadConditions__cardsWrapper-card-descr {
+                    width: 393px;
+                }
             }
             &:nth-child(4) {
                 background: url('../img/6section/card4.png');
+                .leadConditions__cardsWrapper-card-descr {
+                    width: 395px;
+                }
             }
             &:nth-child(5) {
                 background: url('../img/6section/card5.png');
+                .leadConditions__cardsWrapper-card-descr {
+                    width: 341px;
+                }
             }
             &:last-child {
                 background: url('');
@@ -55,6 +68,7 @@
             }
             &-descr {
                 position: relative;
+                width: 333px;
                 padding-left: 30px;
                 color: var(--color-white);
             }

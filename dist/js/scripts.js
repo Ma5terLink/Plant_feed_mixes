@@ -68,6 +68,28 @@ mobMenuCloseBtn.addEventListener('click', () => closeMobMenu());
 
 
 
+
+let slideTop = 0;
+const partnersCards = document.querySelector('.partners__cardsWrapper');
+
+document.querySelector('.partners__slider-next').addEventListener('click', function() { 
+    slideTop = slideTop + 305;
+    if (slideTop > 610) {
+        slideTop = 0;
+    }
+    partnersCards.style.top = -slideTop + 'px';
+});
+document.querySelector('.partners__slider-prev').addEventListener('click', function() {
+    slideTop = slideTop - 305;
+    if (slideTop < 0) {
+        slideTop = 610;
+    }
+    partnersCards.style.top = -slideTop + 'px';
+});
+
+
+
+
 });
 
 
