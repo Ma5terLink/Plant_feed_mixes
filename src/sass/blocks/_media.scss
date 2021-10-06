@@ -1113,6 +1113,53 @@
             margin-top: 46px;
         }
     }
+    .partnership {
+        margin-top: 137px;
+        .title {
+            margin-left: 0;
+            font-size: 30px;
+        }
+        &__cardsWrapper {
+            margin-left: 0;
+            flex-wrap: wrap;
+            &-card {
+                width: 354px;
+                height: 172px;
+                &:nth-child(3) {
+                    .partnership__cardsWrapper-card-descr {
+                        width: 227px;
+                    }
+                }
+                &:nth-child(4) {
+                    width: 728px;
+                    height: 172px;
+                    order: 5;
+                    &:after {
+                        background: url('../icons/10section/fl4.svg');
+                        width: 159px;
+                        height: 103px;
+                        right: -11px;
+                        bottom: -7px;
+                    }
+                }
+                &:nth-child(5) {
+                    width: 354px;
+                    height: 172px;
+                    padding-top: 29px;
+                    order: 4;
+                    &:before, &:after {
+                        display: none;
+                    }
+                    .partnership__cardsWrapper-card-descr {
+                        width: 126px;
+                    }
+                }
+                &-descr {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 
 
 }
@@ -1463,7 +1510,17 @@
             margin-top: 20px;
         }
     }
-
+    .partnership {
+        &__cardsWrapper {
+            &-card {
+                width: 261px;
+                &:nth-child(5) {
+                    order: 4;
+                    width: 261px;
+                }
+            }
+        }
+    }
     
 
 }
@@ -2207,6 +2264,61 @@
             width: 290px;
             height: 158px;
             margin-top: 15px;
+        }
+    }
+    .partnership {
+        margin-top: 110px;
+        .title {
+            font-size: 20px;
+        }
+        .divider {
+            width: 23px;
+        }
+        .leadConditions__subtitle {
+            width: 252px;
+            font-size: 13px;
+        }
+        &__cardsWrapper {
+            margin-top: 23px;
+            &-card {
+                width: 100%;
+                padding-top: 40px;
+                margin-bottom: 10px;
+                &:nth-child(2) {
+                    padding-top: 30px;
+                    .partnership__cardsWrapper-card-descr {
+                        width: 185px;
+                    }
+                }
+                &:nth-child(3) {
+                    padding-top: 30px;
+                    .partnership__cardsWrapper-card-descr {
+                        width: 178px;
+                    }
+                }
+                &:nth-child(4) {
+                    width: 100%;
+                    padding-top: 39px;
+                    &::before, &:after {
+                        display: none;
+                    }
+                }
+                &:nth-child(5) {
+                    width: 100%;
+                    padding-top: 39px;
+                    margin-bottom: 10px;
+                    .partnership__cardsWrapper-card-descr {
+                        width: 180px;
+                    }
+                }
+                &-title {
+                    font-size: 15px;
+                }
+                &-descr {
+                    width: 225px;
+                    font-size: 13px;
+                }
+            }
         }
     }
 

@@ -4,6 +4,10 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(06-01-21 19:40 МСК+2) =20=
+- Адаптирована 10 секция.
+- Adapted section 10.
+
 (06-01-21 18:30 МСК+2) =19=
 - Адаптирована 9 секция.
 - Adapted section 9.
