@@ -1160,7 +1160,29 @@
             }
         }
     }
-
+    .answers {
+        margin-top: 143px;
+        .title {
+            font-size: 30px;
+            margin-left: 0;
+        }
+        .leadConditions__subtitle {
+            font-size: 16px;
+        }
+        &__bigWrapper {
+            margin-top: 30px;
+        }
+        &__cardsBlock {
+            margin-left: 0;
+            &-card {
+                width: 728px;
+                margin-bottom: 20px;
+            }
+        }
+        &__imageBlock {
+            display: none;
+        }
+    }
 
 }
 
@@ -1517,6 +1539,28 @@
                 &:nth-child(5) {
                     order: 4;
                     width: 261px;
+                }
+            }
+        }
+    }
+    .answers {
+        &__cardsBlock {
+            &-card {
+                width: 540px;
+                &:nth-child(1) {
+                    .answers__cardsBlock-card-descr {
+                        width: 450px;
+                    }
+                }
+                &:nth-child(2) {
+                    .answers__cardsBlock-card-descr {
+                        width: 400px;
+                    }
+                }
+                &:nth-child(3) {
+                    .answers__cardsBlock-card-descr {
+                        width: 405px;
+                    }
                 }
             }
         }
@@ -2316,6 +2360,62 @@
                 }
                 &-descr {
                     width: 225px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    .answers {
+        margin-top: 120px;
+        .title {
+            font-size: 20px;
+        }
+        .divider {
+            width: 23px;
+        }
+        .leadConditions__subtitle {
+            font-size: 12px;
+        }
+        &__cardsBlock {
+            &-card {
+                width: calc(100vw - 40px);
+                height: 156px;
+                &:before, &:after {
+                    transform: translate3d(calc(-50% - 20px), -50%, 0);
+                }
+                &:nth-child(1) {
+                    padding: 23px 0 0 20px;
+                    .answers__cardsBlock-card-title {
+                        width: 185px;
+                    }
+                    .answers__cardsBlock-card-descr {
+                        width: 250px;
+                    }
+                }
+                &:nth-child(2) {
+                    height: 166px;
+                    padding: 19px 0 0 20px;
+                    .answers__cardsBlock-card-title {
+                        width: 190px;
+                    }
+                    .answers__cardsBlock-card-descr {
+                        width: 237px;
+                    }
+                }
+                &:nth-child(3) {
+                    height: 256px;
+                    padding: 30px 0 0 20px;
+                    .answers__cardsBlock-card-title {
+                        width: 245px;
+                    }
+                    .answers__cardsBlock-card-descr {
+                        width: 245px;
+                    }
+                }
+                &-title {
+                    font-size: 15px;
+                }
+                &-descr {
                     font-size: 13px;
                 }
             }

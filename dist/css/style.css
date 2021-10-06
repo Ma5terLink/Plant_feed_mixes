@@ -4092,6 +4092,30 @@ h1, h2, h3, h4, h5, h6, ul {
   .partnership__cardsWrapper-card-descr {
     font-size: 14px;
   }
+
+  .answers {
+    margin-top: 143px;
+  }
+  .answers .title {
+    font-size: 30px;
+    margin-left: 0;
+  }
+  .answers .leadConditions__subtitle {
+    font-size: 16px;
+  }
+  .answers__bigWrapper {
+    margin-top: 30px;
+  }
+  .answers__cardsBlock {
+    margin-left: 0;
+  }
+  .answers__cardsBlock-card {
+    width: 728px;
+    margin-bottom: 20px;
+  }
+  .answers__imageBlock {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .pageup {
@@ -4458,6 +4482,19 @@ h1, h2, h3, h4, h5, h6, ul {
   .partnership__cardsWrapper-card:nth-child(5) {
     order: 4;
     width: 261px;
+  }
+
+  .answers__cardsBlock-card {
+    width: 540px;
+  }
+  .answers__cardsBlock-card:nth-child(1) .answers__cardsBlock-card-descr {
+    width: 450px;
+  }
+  .answers__cardsBlock-card:nth-child(2) .answers__cardsBlock-card-descr {
+    width: 400px;
+  }
+  .answers__cardsBlock-card:nth-child(3) .answers__cardsBlock-card-descr {
+    width: 405px;
   }
 }
 @media (max-width: 576px) {
@@ -5238,6 +5275,61 @@ h1, h2, h3, h4, h5, h6, ul {
   }
   .partnership__cardsWrapper-card-descr {
     width: 225px;
+    font-size: 13px;
+  }
+
+  .answers {
+    margin-top: 120px;
+  }
+  .answers .title {
+    font-size: 20px;
+  }
+  .answers .divider {
+    width: 23px;
+  }
+  .answers .leadConditions__subtitle {
+    font-size: 12px;
+  }
+  .answers__cardsBlock-card {
+    width: calc(100vw - 40px);
+    height: 156px;
+  }
+  .answers__cardsBlock-card:before, .answers__cardsBlock-card:after {
+    transform: translate3d(calc(-50% - 20px), -50%, 0);
+  }
+  .answers__cardsBlock-card:nth-child(1) {
+    padding: 23px 0 0 20px;
+  }
+  .answers__cardsBlock-card:nth-child(1) .answers__cardsBlock-card-title {
+    width: 185px;
+  }
+  .answers__cardsBlock-card:nth-child(1) .answers__cardsBlock-card-descr {
+    width: 250px;
+  }
+  .answers__cardsBlock-card:nth-child(2) {
+    height: 166px;
+    padding: 19px 0 0 20px;
+  }
+  .answers__cardsBlock-card:nth-child(2) .answers__cardsBlock-card-title {
+    width: 190px;
+  }
+  .answers__cardsBlock-card:nth-child(2) .answers__cardsBlock-card-descr {
+    width: 237px;
+  }
+  .answers__cardsBlock-card:nth-child(3) {
+    height: 256px;
+    padding: 30px 0 0 20px;
+  }
+  .answers__cardsBlock-card:nth-child(3) .answers__cardsBlock-card-title {
+    width: 245px;
+  }
+  .answers__cardsBlock-card:nth-child(3) .answers__cardsBlock-card-descr {
+    width: 245px;
+  }
+  .answers__cardsBlock-card-title {
+    font-size: 15px;
+  }
+  .answers__cardsBlock-card-descr {
     font-size: 13px;
   }
 }
