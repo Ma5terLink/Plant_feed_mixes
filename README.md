@@ -4,6 +4,11 @@
 https://www.figma.com/file/3kADSzHR4nAjwaJM58qOEK/Plant-feed-mixes
 -----
 
+(07-01-21 07:40 МСК+2) =24=
+- Завершена адаптация 14 секции. Адаптация сайта полностью завершена. Можно оптимизировать модуль media (но, я пока не стал этого делать - поскольку проект не коммерческий, собирался ради интереса и удовольствия). Следующим шагом "подровнять" выпадающее меню и посадить модальные окна (они тоже готовы) на кнопки.
+- The adaptation of section 14 has been completed. The site adaptation is fully completed. It is possible to optimize the media module (but, I have not done this yet - since the project is non-commercial, I was going for the sake of interest and pleasure). The next step is to "trim" the drop-down menu and put the modal windows (they are also ready) on the buttons.
+
+
 (07-01-21 04:10 МСК+2) =23=
 - Адаптирована 13 секция. Написан и подогнан простой слайдер (работает на всех разрешениях).
 - Adapted section 13. A simple slider has been written and adjusted (it works on all resolutions).

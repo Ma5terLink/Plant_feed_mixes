@@ -184,7 +184,6 @@
             }
         }
     }
-
     .factory {
         &__imagesWrapper {
             margin-top: 6px;
@@ -207,7 +206,6 @@
             font-size: 12px;
         }
     }
-
     .leadConditions {
         &__wrapperSubtitle {
             margin-left: 20px;
@@ -224,7 +222,6 @@
                 margin-left: 40px;
         }
     }
-
     .responsibility {
         &__cardsWrapper {
             &-card {
@@ -235,14 +232,12 @@
             }
         }
     }
-
     .partners {
         &__cardsWrapper {
             margin: 0 20px;
             margin-top: 50px;
         }
     }
-
     .delivery {
         &__mapImage {
             width: 550px;
@@ -257,7 +252,6 @@
             }
         }
     }
-
     .partnership {
         &__cardsWrapper {
             margin-left: 20px;
@@ -277,7 +271,6 @@
             }
         }
     }
-
     .answers {
         &__cardsBlock {
             margin-left: 16px;
@@ -307,7 +300,6 @@
             }
         }
     }
-
     .suppliers {
         &__leftBlock {
             width: 360px;
@@ -339,7 +331,6 @@
             }
         }
     }
-
     .news {
         &__border {
             width: 960px;
@@ -363,7 +354,6 @@
         }
 
     }
-
     .contacts {
         .title {
             margin-left: 0;
@@ -1305,15 +1295,92 @@
             margin-top: 20px;
         }
     }
-
+    .contacts {
+        margin-top: 170px;
+        height: 1335px;
+        .container {
+            height: 1335px;
+        }
+        .title {font-size: 30px;}
+        .subtitleText {
+            padding-top: 3px;
+            margin-top: 15px;
+            font-size: 16px;
+            text-align: center;
+        }
+        &__bigWrapper {
+            flex-direction: column-reverse;
+            &-rightBlock {
+                width: 100%;
+                height: 566px;
+                margin-left: 0;
+            }
+            &-leftBlock {
+                margin: 30px 0 0 0;
+                &-item {
+                    &-divider {
+                        width: 479px;
+                    }
+                    &:nth-child(2) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 519px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 436px;
+                        }
+                    }
+                }
+                &-map {
+                    width: 729px;
+                    height: 281px;
+                    img {
+                        border-radius: 5px;
+                    }
+                    &-pointerWrapper {
+                        img {
+                            top: 178px;
+                            left: 267px;
+                            border-radius: 5px;
+                        }
+                        &-text {
+                            top: 231px;
+                            left: 258px;
+                        }
+                    }
+                }
+            }
+        }
+        .question {
+            &__title {
+                padding: 40px 0 20px 107px;
+            }
+            &__formWrapper {
+                input, textarea {
+                    width: 515px;
+                    margin-left: 107px;
+                }
+                button {
+                    width: 515px;
+                    height: 65px;
+                    margin-left: 107px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
     .pageup {
-        width: 44px;
-        height: 44px;
-        bottom: 22px;
-        right: 22px;
+        // width: 44px;
+        // height: 44px;
+        // bottom: 22px;
+        // right: 22px;
+        top: 77px;
+        width: 48px;
+        right: 20px;
         svg path {
             fill: var(--color-vinous);
         }
@@ -1780,6 +1847,56 @@
             margin-top: 50px;
         }
     }
+    .contacts {
+        margin-top: 120px;
+        .question {
+            &__title {
+                padding: 40px 0 20px 30px;
+            }
+            &__formWrapper {
+                input, textarea {
+                    width: 480px;
+                    margin-left: 30px;
+                }
+                button {
+                    width: 480px;
+                    margin-left: 30px;
+                }
+            }
+        }
+        &__bigWrapper {
+            &-leftBlock {
+                &-item {
+                    &-divider {
+                        width: 291px;
+                    }
+                    &:nth-child(2) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 331px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 248px;
+                        }
+                    }
+                }
+                &-map {
+                    width: 100%;
+                    &-pointerWrapper {
+                        img {
+                            top: 158px;
+                            left: 200px;
+                        }
+                        &-text {
+                            top: 213px;
+                            left: 193px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 
 }
 
@@ -1988,9 +2105,10 @@
         }
         .order {
             &__form {
-                padding-left: 10px; 
+                padding-left: 0px; 
             }
             &__formWrapper {
+                width: 100%;
                 padding: 0 0 43px 0;
             }
             &__input {
@@ -2761,6 +2879,152 @@
             text-align: center;
         }
 
+    }
+    .contacts {
+        height: 1215px;
+        margin-top: 122px;
+        .container {
+            height: 1215px;
+        }
+        .title {
+            font-size: 20px;
+        }
+        .subtitleText {
+            padding-top: 5px;
+            font-size: 13px;
+        }
+        &__descr {
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        &__bigWrapper {
+            margin-top: 20px;
+            &-rightBlock {
+                position: relative;
+                width: 100vw;
+                height: 552px;
+                left: -20px;
+                margin-left: 0;
+                text-align: center;
+            }
+            &-leftBlock {
+                &-item {
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    &-text {
+                        font-size: 15px;
+                    }
+                    &-value {
+                        font-size: 13px;
+                        &:before {
+                            left: 4px;
+                            top: 0px;
+                        }
+                    }
+                    &-divider {
+                        width: 68px;
+                    }
+                    &:nth-child(2) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 100px;
+                        }
+                    }
+                    &:nth-child(3) {
+                        .contacts__bigWrapper-leftBlock-item-divider {
+                            width: 32px;
+                        }
+                        .contacts__bigWrapper-leftBlock-item-value {
+                            &:before {
+                                top: -3px;
+                            }
+                        }
+                    }
+                }
+                &-map {
+                    width: 280px;
+                    height: 191px;
+                    margin: 0 auto;
+                    margin-top: 29px;
+                    &-pointerWrapper {
+                        img {
+                            height: 43px;
+                            width: 35px;
+                            top: 101px;
+                            left: 94px;
+                        }
+                        &-text {
+                            top: 142px;
+                            left: 88px;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                &-crWrapper {
+                    &-copyRights {
+                        width: 100px;
+                        font-size: 12px;
+                    }
+                    &-madeIn {
+                        width: 54px;
+                        font-size: 12px;
+                    }
+                }
+                &-divider {
+                    margin-top: 14px;
+                }
+                &-linksWrapper {
+                    margin-top: 14px;
+                    flex-direction: column;
+                    &-policyReturn {
+                        margin-bottom: 7px;
+                    }
+
+                }
+            }
+        }
+        .question {
+            &__title {
+                padding: 0;
+                padding-top: 47px;
+                text-align: center;
+            }
+            &__formWrapper {
+                margin-top: 20px;
+                input, textarea {
+                    width: 280px;
+                    margin-left: 0;
+                    font-size: 13px;
+                    line-height: 15px;
+                    padding: 0 20px;
+                }
+                textarea {
+                    padding: 18px 20px; 
+                    margin-bottom: 0;
+                }
+                button {
+                    width: 280px;
+                    height: 50px;
+                    margin: 0 auto;
+                    font-size: 13px;
+                }
+            }
+            &__policy {
+                position: relative;
+                font-size: 12px;
+                width: 260px;
+                /* left: 44px; */
+                margin: 0 auto;
+                padding-top: 20px;
+                padding-left: 13px;
+                text-align: left;
+                input {
+                    position: absolute;
+                    margin: 0;
+                    top: 20px;
+                    left: -11px;
+                }
+            }
+        }
     }
 
 }
